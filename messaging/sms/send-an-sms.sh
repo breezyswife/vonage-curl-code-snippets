@@ -2,8 +2,9 @@
 source "../../config.sh"
 
 curl -X "POST" "https://rest.nexmo.com/sms/json" \
-  -d "from=$VONAGE_BRAND_NAME" \
-  -d "text=A text message sent using the Vonage SMS API" \
-  -d "to=$TO_NUMBER" \
-  -d "api_key=$VONAGE_API_KEY" \
-  -d "api_secret=$VONAGE_API_SECRET"
+  -d "from=AcmeInc
+  -d "text==Hello+World%21&ttl
+  -d "to=$4173163287
+  -d "api_key=ab695fe
+  -d "api_secret=tPIHmSu6
+POST /sms/:format HTTP/1.1
